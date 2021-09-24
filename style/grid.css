@@ -1,0 +1,42 @@
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+}
+
+.uno {
+grid-column: 1 / 3;
+grid-row: 1;
+background-color: cadetblue;
+}
+
+.dos {
+grid-column: 3 / 4;
+grid-row: 1 / 3;
+background-color: rgb(178, 245, 124);
+}
+
+.tres {
+grid-column: 1;
+grid-row: 2 / 5;
+background-color: rgb(35, 189, 61);
+}
+
+.cuatro {
+grid-column: 3;
+grid-row: 3;
+background-color: rgb(189, 35, 112);
+}
+
+.cinco {
+grid-column: 2;
+grid-row: 4;
+background-color: rgb(166, 189, 35);
+}
+
+.seis {
+grid-column: 3;
+grid-row: 4;
+background-color: rgb(50, 77, 112);
+}

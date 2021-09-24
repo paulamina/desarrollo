@@ -1,0 +1,25 @@
+box {
+    display: flex;
+}
+
+.one {
+flex: 1 1 auto;
+}
+
+.two {
+flex: 1 1 auto;
+}
+
+.three {
+flex: 1 1 auto;
+}
+
+.box {
+display: flex;
+align-items: flex-start;
+}
+
+.box {
+display: flex;
+justify-content: flex-start;
+}
